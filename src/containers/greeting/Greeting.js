@@ -43,9 +43,9 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img
+            <img style={{borderRadius: "50%", width : "400px"}}
               alt="saad sitting on table"
-              src={require("../../assets/images/manOnTable.svg")}
+              src={require("../../assets/images/profilepic.jpg")}
             ></img>
           </div>
         </div>
