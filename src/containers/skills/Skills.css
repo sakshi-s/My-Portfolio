@@ -4,6 +4,7 @@
 
 .skills-text-div {
   margin-left: 50px;
+  width : 500px;
 }
 
 .skills-main-div > * {
@@ -19,6 +20,7 @@
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
+  text-shadow: 20px 8px 1px pink;
 }
 .subTitle {
   color: #868e96;
