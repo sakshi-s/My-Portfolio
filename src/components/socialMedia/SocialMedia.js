@@ -30,13 +30,13 @@ export default function socialMedia() {
       :
       null}
 
-      {socialMediaLinks.gitlab ?
+      {/* {socialMediaLinks.gitlab ?
       <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank">
         <i className="fab fa-gitlab"></i>
         <span></span>
       </a>
       :
-      null }
+      null } */}
 
       {socialMediaLinks.facebook ?
       <a href={socialMediaLinks.facebook} className="icon-button facebook" target="_blank">
@@ -54,29 +54,29 @@ export default function socialMedia() {
       :
       null}
 
-      {socialMediaLinks.twitter ?
+      {/* {socialMediaLinks.twitter ?
       <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank">
         <i className="fab fa-twitter"></i>
         <span></span>
       </a>
       :
-      null}
+      null} */}
 
-      {socialMediaLinks.medium ? 
+      {/* {socialMediaLinks.medium ? 
       (<a href={socialMediaLinks.medium} className="icon-button medium" target="_blank">
         <i className="fab fa-medium"></i>
         <span></span>
       </a>)
       :
-      null}
+      null} */}
 
-      {socialMediaLinks.stackoverflow ? 
+      {/* {socialMediaLinks.stackoverflow ? 
       (<a href={socialMediaLinks.stackoverflow} className="icon-button stack-overflow" target="_blank">
         <i className="fab fa-stack-overflow"></i>
         <span></span>
       </a>)
       :
-      null}
+      null} */}
 
     </div>
   );

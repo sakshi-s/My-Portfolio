@@ -44,10 +44,17 @@
   font-size: 30px;
   line-height: 40px;
 }
+.greeting-image-div {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
 
 .greeting-image-div > img {
   max-width: 100%;
-  height: auto;
+  display: block;
+  margin: auto;
+  width: 70%;
 }
 .wave-emoji {
   animation-duration: 1.8s;
