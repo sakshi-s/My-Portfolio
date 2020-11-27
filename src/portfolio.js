@@ -44,60 +44,80 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "c++",
-      fontAwesomeClassname: "SiCplusplus"
+      skillName: "C++",
+      fontAwesomeClassname: require("./assets/images/c++.png")
     },
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C",
+      fontAwesomeClassname: require("./assets/images/c.png")
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C#",
+      fontAwesomeClassname: require("./assets/images/c#.jpg")
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Python",
+      fontAwesomeClassname: require("./assets/images/python.png")
+    },
+    {
+      skillName: "MATLAB",
+      fontAwesomeClassname: require("./assets/images/matlab.jpg")
+    },
+    {
+      skillName: "HTML",
+      fontAwesomeClassname: require("./assets/images/html.png")
+    },
+    {
+      skillName: "CSS",
+      fontAwesomeClassname: require("./assets/images/css.png")
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: require("./assets/images/js.png")
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Node.js",
+      fontAwesomeClassname: require("./assets/images/nodejs.png")
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Express",
+      fontAwesomeClassname: require("./assets/images/express.png")
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "React",
+      fontAwesomeClassname: require("./assets/images/react.png")
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Django",
+      fontAwesomeClassname: require("./assets/images/django.png")
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "MySQL",
+      fontAwesomeClassname: require("./assets/images/mysql.svg")
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Azure Cosmos DB",
+      fontAwesomeClassname: require("./assets/images/azurecosmosdb.png")
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Git",
+      fontAwesomeClassname: require("./assets/images/git.png")
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Linux",
+      fontAwesomeClassname: require("./assets/images/linux.png")
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "ASP.NET Core",
+      fontAwesomeClassname: require("./assets/images/asp.netcore.png")
+    },
+    {
+      skillName: "Azure Active Directory",
+      fontAwesomeClassname: require("./assets/images/azuread.png")
+    },
+    {
+      skillName: "Latex",
+      fontAwesomeClassname: require("./assets/images/latex.jpg")
     }
   ]
 };
@@ -149,29 +169,30 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    // },
+    // {
+    //   role: "Front-End Developer",
+    //   company: "Quora",
+    //   companylogo: require("./assets/images/quoraLogo.png"),
+    //   date: "May 2017 – May 2018",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // },
+    }
   ]
 };
 

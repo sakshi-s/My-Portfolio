@@ -1,7 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { skillsSection } from "../../portfolio";
-import {SiCplusplus} from "react-icons/si";
+import Icon from "react-multiple-icons";
 
 export default function SoftwareSkill() {
   return (
@@ -11,8 +11,7 @@ export default function SoftwareSkill() {
           {skillsSection.softwareSkills.map(skills => {
             return (
               <li className="software-skill-inline" name={skills.skillName}>
-                <SiCplusplus/>
-                {/* <i className={skills.fontAwesomeClassname}></i> */}
+                <img height="90" width="90" src={skills.fontAwesomeClassname}/>
                 <p>{skills.skillName}</p>
               </li>
             );
