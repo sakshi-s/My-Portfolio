@@ -320,7 +320,7 @@ const talkSection = {
 
 const videosSection = {
   title: "FEATURED VIDEOS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: "",
 
   videos: [
     {
@@ -330,6 +330,10 @@ const videosSection = {
     {
       img: require("./assets/images/theleftside.jpg"),
       link: "https://www.youtube.com/watch?v=w4l8WjiHh1U&ab_channel=Lumi%C3%A8reIITG",
+    },
+    {
+      img: require("./assets/images/daman.jpg"),
+      link: "https://www.youtube.com/watch?v=4WMJjLyU3I0&ab_channel=Lumi%C3%A8reIITG",
     }
   ]
 };

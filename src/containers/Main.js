@@ -55,7 +55,7 @@ export default class Main extends Component {
           {/* <StartupProject /> */}
           <Achievement />
           {/* <Blogs /> */}
-          <Talks />
+          {/* <Talks /> */}
           {/* <Twitter /> */}
           {/* <Podcast /> */}
           <Videos />
