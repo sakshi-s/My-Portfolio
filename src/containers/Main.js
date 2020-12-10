@@ -9,6 +9,7 @@ import Project from "./project/Project";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
+import Basketball from "./basketball/basketball";
 import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
@@ -59,6 +60,7 @@ export default class Main extends Component {
           {/* <Twitter /> */}
           {/* <Podcast /> */}
           <Videos />
+          <Basketball />
           <Profile />
           <Footer />
           <Top />

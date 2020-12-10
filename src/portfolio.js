@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sakshi Sharma",
   title: "Hello! I am Sakshi Sharma",
-  subTitle: emoji("I am a passionate Software Developer 🚀. My motivation is working on projects that provide utility to people. I am currently exploring the amazing world of open source!"),
+  subTitle: emoji("I am a passionate Software Developer 🚀. My motivation is working on projects that provide utility to the masses. I recently started my journey in open source by completing Hacktoberfest 2020 and aiming to explore a lot and make many more contributions!"),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -319,8 +319,8 @@ const talkSection = {
 };
 
 const videosSection = {
-  title: "FEATURED VIDEOS",
-  subtitle: "",
+  title: "Featured Videos",
+  subtitle: emoji("I've been a part of a podcast and have acted in few short films 🎥"),
 
   videos: [
     {
@@ -334,6 +334,18 @@ const videosSection = {
     {
       img: require("./assets/images/daman.jpg"),
       link: "https://www.youtube.com/watch?v=4WMJjLyU3I0&ab_channel=Lumi%C3%A8reIITG",
+    }
+  ]
+};
+
+const basketballSection = {
+  title: "My Basketball Family",
+  subtitle: emoji("Represented IITG in Basketball in Inter IIT Sports Meet 2017 🏀 and gained a family!"),
+
+  videos: [
+    {
+      img: require("./assets/images/basketball.jpeg"),
+      link: "https://www.youtube.com/watch?v=ud3QJKfTw84&ab_channel=IshanSharma",
     }
   ]
 };
@@ -362,4 +374,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, projectInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, videosSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, projectInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, videosSection, basketballSection, podcastSection, contactInfo , twitterDetails};
