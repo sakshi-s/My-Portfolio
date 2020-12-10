@@ -9,7 +9,7 @@ export default function Basketball () {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      { <div className="main" id="videos">
+      { <div className="main" id="basketball">
         <div className="videos-header">
           <h1 className="videos-header-title">{basketballSection.title}</h1>
           <p

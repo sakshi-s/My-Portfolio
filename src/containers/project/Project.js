@@ -5,7 +5,7 @@ import { projectInfo } from '../../portfolio';
 
 export default function Project() {
   return (
-    <div className="education-section" id="education">
+    <div className="education-section" id="projects">
         <h1 className="education-heading">Projects</h1>
         <div className="education-card-container">
           {projectInfo.schools.map((school) => (

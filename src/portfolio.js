@@ -10,7 +10,7 @@ const greeting = {
   username: "Sakshi Sharma",
   title: "Hello! I am Sakshi Sharma",
   subTitle: emoji("I am a passionate Software Developer 🚀. My motivation is working on projects that provide utility to the masses. I recently started my journey in open source by completing Hacktoberfest 2020 and aiming to explore a lot and make many more contributions!"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/drive/folders/1SpHyuiiOLrG7zmvuxPZ-aXDXGU1Cnlcd?usp=sharing"
 };
 
 // Your Social Media Link
