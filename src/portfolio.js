@@ -213,6 +213,17 @@ const workExperiences = {
         "Implemented authentication using Azure AD to allow only Microsoft members to use it, and authorization by maintaining a user policy for each user",
         "This service will be extensively used by the team as a base to create and validate rules and patterns for ML models for network activity attribution service"
       ]
+    },
+    {
+      role: "Software Developer Intern",
+      company: "YantraAI Technologies",
+      companylogo: require("./assets/images/yantraAI.PNG"),
+      date: "May 2019 - June 2019",
+      desc: "Worked on ground based people detection using RGB-depth images and Point Cloud Library.",
+      descBullets: [
+        "Obtained live RGB-D data from a Microsoft Kinect",
+        "Used it to detect people standing or walking on a planar ground plane in real time with standard CPU computation."
+      ]
     }
   ]
 };
@@ -248,35 +259,24 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Consulting"),
+  subtitle: "I have participated in case studies and explored my interest in consulting!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Creative Shock 2018  (International Rank 13)",
+      subtitle: "Provided solution for a social business case study based on a hypothetical not-for-profit organisation Reach, aimed at community empowerment and employment creation in South Soweto region of Africa. Also provided a communication campaign video for a social initiative Stand4Socks. Secured an international rank of 13 from hundreds of teams and thousands of students that participated.",
+      image: require("./assets/images/creativeshocklogo.PNG"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Reach Case Study Solution", url: "https://drive.google.com/drive/folders/1BGnvc0JhAKYLCm1aafELFmbdaOYuW8dG?usp=sharing" },
+        { name: "Stand4Socks Communication Campaign", url: "https://www.youtube.com/watch?v=S6VwS54oIFU&ab_channel=NikunjAgrawal" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
+      title: "Strategy Storm",
+      subtitle: "Provided case study solution for 'Nurturing-Nation' to help them evaluate what would be the best way to set-up the supply chain for their new product for the upcoming 5 years period, aimed at curbing malnutrition.",
+      image: require("./assets/images/strategystormlogo.PNG"),
+      footerLink: [{ name: "Case Study Solution", url: "https://drive.google.com/drive/folders/198Fdl_CzxOFwStF3TytSnBoZqcMVKZWI?usp=sharing" }]
     }
   ]
 };
