@@ -8,14 +8,8 @@ export default function Videoscard({ videoDetails }) {
         <div
           class={videoDetails.isDark ? "dark-rectangle rectangle" : "rectangle_"}
         >
-          {/* <div class="diagonal-fill"></div> */}
-
-          <div className="card-footer-button-div">
-            <a href={videoDetails.link} target="_" class="video-button">
-              Link
-            </a>
-          </div>
-        </div>
+        <a href={videoDetails.link} target="_blank"></a>
+      </div>
       </div>
     </div>
   );

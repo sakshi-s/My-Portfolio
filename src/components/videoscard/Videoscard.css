@@ -13,10 +13,10 @@
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    margin-top: 50px;
   }
   .rectangle_ {
     background: url(../../assets/images/MSPodcast.jpg);
+    background-size: 100% 100%;
     width: 380px;
     height: 300px;
     border-radius: 4px;
@@ -24,7 +24,6 @@
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    margin-top: 50px;
   }
   .rectangle:hover {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);

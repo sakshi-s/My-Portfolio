@@ -168,30 +168,16 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Software Engineer Intern | MLX Family Safety",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoftLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "May 2020 - July 2020",
+      desc: "Worked on building the Pattern Identification Service for iOS version of Microsoft Family Safety app",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed the core functionalities of the API from scratch, to store and manage mappings between URLs from network traffic and apps that generated them, using C# and ASP.NET Core",
+        "Implemented authentication using Azure AD to allow only Microsoft members to use it, and authorization by maintaining a user policy for each user",
+        "This service will be extensively used by the team as a base to create and validate rules and patterns for ML models for network activity attribution service"
       ]
-    // },
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
     }
   ]
 };
@@ -303,8 +289,12 @@ const videosSection = {
 
   videos: [
     {
-      img: "Build Actions For Google Assistant",
+      img: require("./assets/images/MSPodcast.jpg"),
       link: "https://www.youtube.com/watch?v=ud3QJKfTw84&ab_channel=IshanSharma",
+    },
+    {
+      img: require("./assets/images/theleftside.jpg"),
+      link: "https://www.youtube.com/watch?v=w4l8WjiHh1U&ab_channel=Lumi%C3%A8reIITG",
     }
   ]
 };
