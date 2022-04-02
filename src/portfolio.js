@@ -131,7 +131,7 @@ const educationInfo = {
       schoolName: "Indian Institute of Technology, Guwahati",
       logo: require("./assets/images/iitgLogo.png"),
       subHeader: "Bachelor of Technology in Mathematics and Computing",
-      duration: "July 2017 - Present",
+      duration: "July 2017 - June 2021",
       desc: "Courses taken : Data Structures and Algorithms *, Operating Systems *, Databases *, Computer Networks *, Linear Algebra, Probability Theory & Random Processes, Discrete Mathematics, Portfolio Theory & Peformance Analysis (* With lab). \n I also took up some positions of responsibililties at college:",
       descBullets: [
         "Departmental Internship Representative: Aided actively in the smooth conduction of Placement Season 2019-20.",
@@ -202,6 +202,17 @@ const techStack = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer | Leads, Dynamics 365",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
+      date: "June 2021 - Present",
+      desc: "Working with the Leads team on Dynamics 365 (CRM)",
+      descBullets: [
+        "Developed a time triggered Azure function app using C# and ASP.NET Core, managing end-to-end SDLC, to trigger leads assignment rules periodically.",
+        "Scaled it to onboard 600 sellers to the Sales Accelerator, increasing number of qualified leads per month by 22% and improving sellers' and seller managers' productivity."
+      ]
+    },
     {
       role: "Software Engineer Intern | MLX Family Safety",
       company: "Microsoft",
