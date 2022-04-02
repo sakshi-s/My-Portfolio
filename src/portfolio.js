@@ -235,6 +235,15 @@ const workExperiences = {
         "Obtained live RGB-D data from a Microsoft Kinect",
         "Used it to detect people standing or walking on a planar ground plane in real time with standard CPU computation."
       ]
+    },
+    {
+      role: "Web Developer Intern",
+      company: "Headkick Private Limited",
+      companylogo: require("./assets/images/headkickLogo.png"),
+      date: "Sep 2020 - Nov 2020",
+      desc: "Worked on the wireframing (using Figma) and development of the login flow for the website of Headkick using MERN (MongoDB, Express, React, and Node.js) stack. Website link : https://www.headkick.co/",
+      descBullets: [
+      ]
     }
   ]
 };
