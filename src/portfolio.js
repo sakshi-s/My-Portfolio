@@ -143,6 +143,7 @@ const educationInfo = {
   ]
 }
 
+
 const projectInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
@@ -161,6 +162,15 @@ const projectInfo = {
       subHeader: "Coding Club IITG",
       duration: "",
       desc: "Used Beautiful Soup and Selenium to scrape contests schedule and display it in a Django based website, with a discussion portal. It can extract the code of a user given a particular question and contest identifier. Backend database : SQLite.",
+      descBullets: [
+      ]
+    },
+    {
+      schoolName: "Movie Search Website",
+      logo: "https://github.com/sakshi-s/Movie-Search-App",
+      subHeader: "",
+      duration: "",
+      desc: "Developed a website using Node.js and Express, that takes a search term as an input and returns movies with title containing that term, using the OMDb API.",
       descBullets: [
       ]
     },
