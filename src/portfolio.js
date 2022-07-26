@@ -60,6 +60,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: require("./assets/images/python.png")
     },
     {
+      skillName: "Azure",
+      fontAwesomeClassname: require("./assets/images/azure.jfif")
+    },
+    {
       skillName: "MATLAB",
       fontAwesomeClassname: require("./assets/images/matlab.jpg")
     },
