@@ -220,7 +220,9 @@ const workExperiences = {
       desc: "Working with the Leads team on Dynamics 365 (CRM)",
       descBullets: [
         "Developed a time triggered Azure function app using C# and ASP.NET Core, managing end-to-end SDLC, to trigger leads assignment rules periodically.",
-        "Scaled it to onboard 600 sellers to the Sales Accelerator, increasing number of qualified leads per month by 22% and improving sellers' and seller managers' productivity."
+        "Scaled it to onboard 2000 sellers to the Sales Accelerator, increasing number of qualified leads per month by 22% and improving sellers' and seller managers' productivity.",
+        "Redesigned and revamped the \"Next Best Lead\" flow for MSX (Dynamics 365) improving the time to get next best lead by 46%.",
+        "Contributed to hackathon project \"Hello Cody : a voice assistant for VS Code\" Worked with multiple speech recognition softwares (PicoVoice, Dragonfly, Azure Cognitive Services) to minimize speech-to-text conversion latency."
       ]
     },
     {
@@ -230,7 +232,7 @@ const workExperiences = {
       date: "May 2020 - July 2020",
       desc: "Worked on building the Pattern Identification Service for iOS version of Microsoft Family Safety app",
       descBullets: [
-        "Developed the core functionalities of the API from scratch, to store and manage mappings between URLs from network traffic and apps that generated them, using C# and ASP.NET Core",
+        "Developed the core functionalities of the API from scratch, to store and manage mappings between URLs from network traffic and apps that generated them, using C# and ASP.NET Core, with a code coverage of 80% through unit testing.",
         "Implemented authentication using Azure AD to allow only Microsoft members to use it, and authorization by maintaining a user policy for each user",
         "This service will be extensively used by the team as a base to create and validate rules and patterns for ML models for network activity attribution service"
       ]
