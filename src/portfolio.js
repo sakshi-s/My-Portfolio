@@ -222,7 +222,7 @@ const workExperiences = {
         "Developed a time triggered Azure function app using C# and ASP.NET Core, managing end-to-end SDLC, to trigger leads assignment rules periodically.",
         "Scaled it to onboard 2000 sellers to the Sales Accelerator, increasing number of qualified leads per month by 22% and improving sellers' and seller managers' productivity.",
         "Redesigned and revamped the \"Next Best Lead\" flow for MSX (Dynamics 365) improving the time to get next best lead by 46%.",
-        "Contributed to hackathon project \"Hello Cody : a voice assistant for VS Code\" Worked with multiple speech recognition softwares (PicoVoice, Dragonfly, Azure Cognitive Services) to minimize speech-to-text conversion latency."
+        "Contributed to hackathon project \"Hello Cody : a voice assistant for VS Code\". Worked with multiple speech recognition softwares (PicoVoice, Dragonfly, Azure Cognitive Services) to minimize speech-to-text conversion latency."
       ]
     },
     {
@@ -291,10 +291,18 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Consulting"),
-  subtitle: "I have participated in case studies and explored my interest in consulting!",
+  title: emoji("Achievements"),
+  subtitle: "",
 
   achievementsCards: [
+    {
+      title: "Microsoft Garage Hackathon Winner 2021",
+      subtitle: "Won \"Hack for Developers\" Executive Challenge and \"Best Storyteller\" title for hackathon projects in Microsoft Garage Global Hackathon 2021.",
+      image: require("./assets/images/hackathonwinner.png"),
+      footerLink: [
+        ]
+      //image: require("./assets/images/hackathonwinner.png"),
+    },
     {
       title: "Creative Shock 2018  (International Rank 13)",
       subtitle: "Provided solution for a social business case study based on a hypothetical not-for-profit organisation Reach, aimed at community empowerment and employment creation in South Soweto region of Africa. Also provided a communication campaign video for a social initiative Stand4Socks. Secured an international rank of 13 from hundreds of teams and thousands of students that participated.",
@@ -352,9 +360,21 @@ const talkSection = {
 
 const videosSection = {
   title: "Featured Videos",
-  subtitle: emoji("I've been a part of a podcast and have acted in few short films 🎥"),
+  subtitle: emoji("I love sharing my learnings and experiences and guiding juniors through mentorship and public speaking. I've also acted in few short films 🎥"),
 
   videos: [
+    {
+      img: require("./assets/images/dsabootcamp.png"),
+      link: "https://www.youtube.com/watch?v=cJxt9mIPPPA",
+    },
+    {
+      img: require("./assets/images/dsabootcamp2.jpg"),
+      link: "https://www.youtube.com/watch?v=xGIfwUczMR4",
+    },
+    {
+      img: require("./assets/images/dsabootcamp3.jpg"),
+      link: "https://www.youtube.com/watch?v=tZTIEzszyFs",
+    },
     {
       img: require("./assets/images/MSPodcast.jpg"),
       link: "https://www.youtube.com/watch?v=ud3QJKfTw84&ab_channel=IshanSharma",
