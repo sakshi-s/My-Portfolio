@@ -10,7 +10,7 @@ const greeting = {
   username: "Sakshi Sharma",
   title: "Hello! I am Sakshi Sharma",
   subTitle: emoji("I am a passionate Software Developer 🚀. My motivation is working on projects that provide utility to the masses. I recently started my journey in open source by completing Hacktoberfest 2020 and aiming to explore a lot and make many more contributions!"),
-  resumeLink: "https://drive.google.com/drive/folders/1SpHyuiiOLrG7zmvuxPZ-aXDXGU1Cnlcd?usp=sharing"
+  //resumeLink: "https://drive.google.com/drive/folders/1SpHyuiiOLrG7zmvuxPZ-aXDXGU1Cnlcd?usp=sharing"
 };
 
 // Your Social Media Link
@@ -19,7 +19,7 @@ const socialMediaLinks = {
 
   github: "https://github.com/sakshi-s",
   linkedin: "https://linkedin.com/in/sakshi14/",
-  gmail: "sakshis.1407@gmail.com",
+  //gmail: "sakshis.1407@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/profile.php?id=100017867674714",
   medium: "https://medium.com/@saadpasta",
@@ -68,6 +68,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: require("./assets/images/matlab.jpg")
     },
     {
+      skillName: "Object Oriented Programming",
+      fontAwesomeClassname: require("./assets/images/OOPS.jpeg")
+    },
+    {
       skillName: "HTML",
       fontAwesomeClassname: require("./assets/images/html.png")
     },
@@ -108,12 +112,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: require("./assets/images/git.png")
     },
     {
+      skillName: "Azure DevOps",
+      fontAwesomeClassname: require("./assets/images/AzureDevOps.webp")
+    },
+    {
       skillName: "Linux",
       fontAwesomeClassname: require("./assets/images/linux.png")
     },
     {
       skillName: "ASP.NET Core",
       fontAwesomeClassname: require("./assets/images/asp.netcore.png")
+    },
+    {
+      skillName: "Design Patterns",
+      fontAwesomeClassname: require("./assets/images/DesignPatterns.jfif")
+    },
+    {
+      skillName: "CI/CD",
+      fontAwesomeClassname: require("./assets/images/CICD.jpg")
+    },
+    {
+      skillName: "Scrum",
+      fontAwesomeClassname: require("./assets/images/Scrum.jfif")
     },
     {
       skillName: "Azure Active Directory",
@@ -419,7 +439,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Drop me a Hi!",
   number: "+91-8087672151",
-  email_address: "sakshis.1407@gmail.com"
+  //email_address: "sakshis.1407@gmail.com"
 };
 
 //Twitter Section
