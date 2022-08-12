@@ -244,7 +244,7 @@ const workExperiences = {
       desc: "Working with the Leads team on Dynamics 365 (CRM)",
       descBullets: [
         "Developed a time triggered Azure function app using C# and ASP.NET Core, managing end-to-end SDLC, to trigger leads assignment rules periodically.",
-        "Scaled it to onboard sellers to the Sales Accelerator, 8k+ leads were routed by these assignment rules with a qualification to disqualification ratio of 1:11, improving sellers' and seller managers' productivity.",
+        "Scaled it to onboard sellers to the Sales Accelerator, thousands of leads were routed by these assignment rules with a qualification to disqualification ratio of 1:11, improving sellers' and seller managers' productivity.",
         "Contributed to hackathon project \"Hello Cody : a voice assistant for VS Code\". Worked with multiple speech recognition softwares (PicoVoice, Dragonfly, Azure Cognitive Services) to minimize speech-to-text conversion latency."
       ]
     },
